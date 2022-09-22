@@ -2,7 +2,7 @@
 
 body {
  font-family: 'Montserrat', sans-serif;
- background: lightgray;
+ background:hsl(212, 45%, 89%);
 }
 
 .card {
@@ -12,7 +12,7 @@ body {
 }
 
 .card-qr{
-    background: lightgoldenrodyellow;
+    background:  hsl(0, 0%, 100%);
     border-radius: 12px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 30px;
@@ -29,14 +29,67 @@ body {
 .titulo{
     font-size: 20px;
     text-align: center;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
 }
 
 .subtitulo{
     font-size: 15px;
     text-align: center;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
 }
 
 .info{
     font-size: 10px;
     align-items: center;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+
+@media screen and (min-width:375px) and (max-width:768px) {
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background:hsl(212, 45%, 89%);
+       }
+       
+       .card {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+       
+       .card-qr{
+           background:  hsl(0, 0%, 100%);
+           border-radius: 12px;
+           box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+           padding: 20px;
+           margin: 10px;
+           width: 250px;
+       }
+       
+       .imagem{
+           border-radius: 12px;
+           width: 100%;
+           height: 100%;
+       }
+       
+       .titulo{
+           font-size: 20px;
+           text-align: center;
+           font-weight: 700;
+       }
+       
+       .subtitulo{
+           font-size: 15px;
+           text-align: center;
+           font-weight: 400;
+       }
+       
+       .info{
+           font-size: 13px;
+           align-items: center;
+           font-weight: 400;
+       }   
 }
