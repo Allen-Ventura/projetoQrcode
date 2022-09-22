@@ -15,10 +15,10 @@ body {
 .card-qr{
     background:  hsl(0, 0%, 100%);
     border-radius: 12px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 30px;
-    margin: 20px;
-    width: 300px;
+    box-shadow: 15px 15px 30px 0px rgba(50, 50, 50, 0.22);
+    padding: 100px;
+    margin: 150px;
+    width: 350px;
 }
 
 .imagem{
